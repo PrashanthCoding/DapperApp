@@ -8,6 +8,7 @@ namespace DapperApp.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        // Employee Controller
         private readonly IEmployeeRepository _employeeRepository;
 
         public EmployeeController(IEmployeeRepository employeeRepository)
