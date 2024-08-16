@@ -10,6 +10,7 @@ namespace DapperApp.Repository
     {
         private readonly IDbConnection _dbConnection;
 
+        // Constructor
         public EmployeeRepository(IConfiguration configuration)
         {
             _dbConnection = new SqlConnection(configuration.GetConnectionString("DefaultConnection"));
